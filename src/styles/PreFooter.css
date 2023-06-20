@@ -1,0 +1,85 @@
+.fotter{
+    display: flex;
+    flex-direction: column;
+}
+
+.preFotter1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: white;
+}
+
+.preFotter1 > div{
+    padding: 1vmax 3vmax;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preFotter1  svg{
+    transform: scale(2) translateY(-0.2vmax);
+    margin: 2vmax;
+    fill: rgba(37, 37, 37, .364);
+}
+
+.preFotter1 > div:hover{
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+
+}
+
+.preFotter1 > div >p> p{
+    color: rgb(145, 145, 145);
+    font-size: 0.8vmax;
+}
+/* ----------------------------------------------------------------- */
+
+.preFotter2 {
+    display: grid;
+    grid-template-columns: 5fr 6fr 5fr 5fr ;
+    padding: 2vmax 0;
+}
+
+.preFotter2> div{
+    padding: 1vmax 3vmax;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.preFotter2 > div > h4>div ,.preFotter2 > div > div{
+    font-size: 0.9vmax;
+    margin: 0.5vmax 0;
+    color: rgb(145, 145, 145);
+}
+
+.preFotter2 > div > div:first-child{
+    display: flex;
+    align-items: center;
+}
+.preFotter2 > div > div:first-child> input{
+    padding: 0.8vmax;
+    width: 80%;
+    padding: 0.5vmax 1vmax;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 1vmax;
+}
+
+.preFotter2 > div > div:first-child> button{
+    border: none;
+    background-color: white;
+    padding: 0.63vmax 1vmax;
+}
+
+
+.preFotter2 > div >  p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    fill:rgb(145, 145, 145); ;
+}
+
+

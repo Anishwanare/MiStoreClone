@@ -1,0 +1,21 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    background-color: rgb(50, 50, 50);
+    padding: 5vmax ;
+}
+
+.footer>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer>div >p{
+    color: white;
+}
+
+.footer>div >a{
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    margin: 0.5vmax 0;
+}
